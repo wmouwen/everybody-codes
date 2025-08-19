@@ -1,0 +1,26 @@
+[project]
+name = "everybody-codes"
+version = "0.dev"
+dependencies = [
+    "pip ~= 25.2",
+    "ruff ~= 0.12",
+]
+requires-python = "~= 3.13"
+authors = [
+    { name = "Willem Mouwen", email = "willem@mouwen.dev" },
+]
+description = "Personal solutions to the problems published by the Everybody Codes events"
+readme = "README.md"
+
+[project.urls]
+Repository = "https://github.com/wmouwen/everybody-codes"
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["events", "stories"]
+
+[tool.ruff.format]
+quote-style = "single"
