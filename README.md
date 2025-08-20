@@ -13,7 +13,7 @@ to `stdout`.
 | Quest | Name                         | Problem                                              | Solution               | Ducks  |
 |------:|:-----------------------------|:-----------------------------------------------------|:-----------------------|:-------|
 |     1 | The Battle for the Farmlands | [link](https://everybody.codes/event/2024/quests/1)  | [link](events/2024/1)  | 🦆🦆🦆 |
-|     2 | The Runes of Power           | [link](https://everybody.codes/event/2024/quests/2)  | [link](events/2024/2)  |        |
+|     2 | The Runes of Power           | [link](https://everybody.codes/event/2024/quests/2)  | [link](events/2024/2)  | 🦆🦆🦆 |
 |     3 | Mining Maestro               | [link](https://everybody.codes/event/2024/quests/3)  | [link](events/2024/3)  |        |
 |     4 | Royal Smith's Puzzle         | [link](https://everybody.codes/event/2024/quests/4)  | [link](events/2024/4)  |        |
 |     5 | Pseudo-Random Clap Dance     | [link](https://everybody.codes/event/2024/quests/5)  | [link](events/2024/5)  |        |
