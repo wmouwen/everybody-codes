@@ -43,7 +43,7 @@ Future event.
 
 | Quest | Name                    | Problem                                          | Solution            | Ducks |
 |------:|:------------------------|:-------------------------------------------------|:--------------------|:------|
-|     1 | EniCode                 | [link](https://everybody.codes/story/1/quests/1) | [link](stories/1/1) | 🦆    |
+|     1 | EniCode                 | [link](https://everybody.codes/story/1/quests/1) | [link](stories/1/1) | 🦆🦆  |
 |     2 | Tangled Trees           | [link](https://everybody.codes/story/1/quests/2) | [link](stories/1/2) |       |
 |     3 | The Conical Snail Clock | [link](https://everybody.codes/story/1/quests/3) | [link](stories/1/3) |       |
 
@@ -74,10 +74,10 @@ To run the Python scripts, you need to perform the following steps:
    pip install -e .
    ```
 
-5. Run the solution for the required day.
+5. Run the solution for the required quest.
    ```shell
-   year=2015
-   day=1
-   set="puzzle"
-   python "./$year/$day/solution.py" < "./problems/$year/$day/inputs/$set.txt"
+   event="events/2024"
+   quest=1
+   set="part_1"
+   python "./$event/$quest/solution.py" < "./problems/$event/$quest/inputs/$set.txt"
    ```
