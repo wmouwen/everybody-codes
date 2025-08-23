@@ -7,15 +7,13 @@ type Mapping = dict[str, list[str]]
 
 
 def read_input() -> Mapping:
-    mapping = defaultdict(list)
+    mapping = dict()
 
     for line in sys.stdin:
         source, targets = line.strip().split(':')
+        mapping[source] = targets.split(',')
 
-        for target in targets.split(','):
-            mapping[source].append(target)
-
-    return dict(mapping)
+    return mapping
 
 
 def evolve(population: Population, mapping: Mapping) -> Population:
