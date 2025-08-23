@@ -19,7 +19,7 @@ to `stdout`.
 |     5 | Pseudo-Random Clap Dance     | [link](https://everybody.codes/event/2024/quests/5)  | [link](events/2024/5)  |        |
 |     6 | The Tree of Titans           | [link](https://everybody.codes/event/2024/quests/6)  | [link](events/2024/6)  | 🦆🦆🦆 |
 |     7 | Not Fast but Furious         | [link](https://everybody.codes/event/2024/quests/7)  | [link](events/2024/7)  |        |
-|     8 | A Shrine for Nullpointer     | [link](https://everybody.codes/event/2024/quests/8)  | [link](events/2024/8)  | 🦆🦆   |
+|     8 | A Shrine for Nullpointer     | [link](https://everybody.codes/event/2024/quests/8)  | [link](events/2024/8)  | 🦆🦆🦆 |
 |     9 | Sparkling Bugs               | [link](https://everybody.codes/event/2024/quests/9)  | [link](events/2024/9)  |        |
 |    10 | Shrine Needs to Shine        | [link](https://everybody.codes/event/2024/quests/10) | [link](events/2024/10) |        |
 |    11 | Biological Warfare           | [link](https://everybody.codes/event/2024/quests/11) | [link](events/2024/11) | 🦆🦆🦆 |
