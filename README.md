@@ -45,7 +45,7 @@ Future event.
 |------:|:------------------------|:-------------------------------------------------|:--------------------|:-------|
 |     1 | EniCode                 | [link](https://everybody.codes/story/1/quests/1) | [link](stories/1/1) | 🦆🦆🦆 |
 |     2 | Tangled Trees           | [link](https://everybody.codes/story/1/quests/2) | [link](stories/1/2) |        |
-|     3 | The Conical Snail Clock | [link](https://everybody.codes/story/1/quests/3) | [link](stories/1/3) |        |
+|     3 | The Conical Snail Clock | [link](https://everybody.codes/story/1/quests/3) | [link](stories/1/3) | 🦆🦆🦆 |
 
 ### 2 - The Entertainment Hub
 
