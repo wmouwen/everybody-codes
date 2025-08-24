@@ -13,7 +13,7 @@ def read_input() -> Mapping:
         source, targets = line.strip().split(':')
         mapping[source] = targets.split(',')
 
-    return dict(mapping)
+    return mapping
 
 
 def get_paths(mapping: Mapping, start: str, end: str) -> set[Path]:
