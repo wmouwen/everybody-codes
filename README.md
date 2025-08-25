@@ -29,7 +29,7 @@ to `stdout`.
 |    15 | From the Herbalist's Diary   | [link](https://everybody.codes/event/2024/quests/15) | [link](events/2024/15) |        |
 |    16 | Cat Grin of Fortune          | [link](https://everybody.codes/event/2024/quests/16) | [link](events/2024/16) |        |
 |    17 | Galactic Geometry            | [link](https://everybody.codes/event/2024/quests/17) | [link](events/2024/17) |        |
-|    18 | The Ring                     | [link](https://everybody.codes/event/2024/quests/18) | [link](events/2024/18) |        |
+|    18 | The Ring                     | [link](https://everybody.codes/event/2024/quests/18) | [link](events/2024/18) | 🦆🦆🦆 |
 |    19 | Encrypted Duck               | [link](https://everybody.codes/event/2024/quests/19) | [link](events/2024/19) |        |
 |    20 | Gliding Finale               | [link](https://everybody.codes/event/2024/quests/20) | [link](events/2024/20) |        |
 
