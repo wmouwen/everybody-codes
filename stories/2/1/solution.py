@@ -25,7 +25,7 @@ def calc_score(toss_slot: int, final_slot: int) -> int:
 def minmax(
     outcomes: dict[int, dict[int, int]],
     coin: int = 0,
-    used: set[int]=None,
+    used: set[int] = None,
     current: int = 0,
 ) -> tuple[int, int]:
     if coin == len(outcomes):
