@@ -1,6 +1,6 @@
 import re
 import sys
-from copy import copy
+from copy import copy, deepcopy
 
 
 class Dice:
@@ -111,10 +111,10 @@ def grid_visits(dice: Dice, grid: list[list[int]]) -> set[tuple[int, int]]:
 def main():
     dices, grid = read_input()
 
-    print(rolls_to_points([copy(dice) for dice in dices], 10000))
+    print(rolls_to_points(deepcopy(dices), 10000))
 
     if grid:
-        finishing_order = race_track_finish([copy(dice) for dice in dices], grid[0])
+        finishing_order = race_track_finish(deepcopy(dices), grid[0])
         print(','.join(dice.id for dice in finishing_order))
 
         reachable_fields = set()
