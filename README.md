@@ -49,11 +49,11 @@ Future event.
 
 ### 2 - The Entertainment Hub
 
-| Quest | Name                    | Problem                                          | Solution            | Ducks  |
-|------:|:------------------------|:-------------------------------------------------|:--------------------|:-------|
-|     1 | Nail Down Your Luck     | [link](https://everybody.codes/story/2/quests/1) | [link](stories/2/1) | 🦆🦆🦆 |
-|     2 | The Pocket-Money Popper | [link](https://everybody.codes/story/2/quests/2) | [link](stories/2/2) | 🦆🦆🦆 |
-|     3 |                         | [link](https://everybody.codes/story/2/quests/3) | [link](stories/2/3) |        |
+| Quest | Name                                            | Problem                                          | Solution            | Ducks  |
+|------:|:------------------------------------------------|:-------------------------------------------------|:--------------------|:-------|
+|     1 | Nail Down Your Luck                             | [link](https://everybody.codes/story/2/quests/1) | [link](stories/2/1) | 🦆🦆🦆 |
+|     2 | The Pocket-Money Popper                         | [link](https://everybody.codes/story/2/quests/2) | [link](stories/2/2) | 🦆🦆🦆 |
+|     3 | The Dice that Never Lie (Unless I Tell Them To) | [link](https://everybody.codes/story/2/quests/3) | [link](stories/2/3) | 🦆🦆   |
 
 ## Technologies
 
