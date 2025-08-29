@@ -59,22 +59,18 @@ def rolls_to_points(dices: list[Dice], target: int) -> int:
 
 
 def race_track_finish(dices: list[Dice], race_track: list[int]) -> list[Dice]:
-    track_position = [0 for _ in dices]
+    track_position = {dice: 0 for dice in dices}
     finishing_order = []
 
-    roll_number = 0
-    while race_track and len(finishing_order) < len(dices):
-        roll_number += 1
+    while len(finishing_order) < len(dices):
+        for dice in dices:
+            if track_position[dice] >= len(race_track):
+                continue
 
-        for i, dice in enumerate(dices):
-            roll = dice.roll()
+            if dice.roll() == race_track[track_position[dice]]:
+                track_position[dice] += 1
 
-            if (
-                track_position[i] < len(race_track)
-                and roll == race_track[track_position[i]]
-            ):
-                track_position[i] += 1
-                if track_position[i] == len(race_track):
+                if track_position[dice] == len(race_track):
                     finishing_order.append(dice)
 
     return finishing_order
@@ -88,7 +84,6 @@ def grid_visits(dice: Dice, grid: list[list[int]]) -> set[tuple[int, int]]:
         for x in range(len(grid[y]))
         if grid[y][x] == roll
     }
-
     visited = [
         [(x, y) in cells for x, cell in enumerate(row)] for y, row in enumerate(grid)
     ]
@@ -108,9 +103,9 @@ def grid_visits(dice: Dice, grid: list[list[int]]) -> set[tuple[int, int]]:
 
         cells = new_cells
 
-    return set(
-        (x, y) for y in range(len(grid)) for x in range(len(grid[y])) if visited[y][x]
-    )
+    return {
+        (x, y) for y, row in enumerate(visited) for x, cell in enumerate(row) if cell
+    }
 
 
 def main():
