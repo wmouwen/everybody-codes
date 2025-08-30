@@ -21,7 +21,7 @@ to `stdout`.
 |     7 | Not Fast but Furious         | [link](https://everybody.codes/event/2024/quests/7)  | [link](events/2024/7)  | 🦆🦆🦆 |
 |     8 | A Shrine for Nullpointer     | [link](https://everybody.codes/event/2024/quests/8)  | [link](events/2024/8)  | 🦆🦆🦆 |
 |     9 | Sparkling Bugs               | [link](https://everybody.codes/event/2024/quests/9)  | [link](events/2024/9)  | 🦆🦆🦆 |
-|    10 | Shrine Needs to Shine        | [link](https://everybody.codes/event/2024/quests/10) | [link](events/2024/10) |        |
+|    10 | Shrine Needs to Shine        | [link](https://everybody.codes/event/2024/quests/10) | [link](events/2024/10) | 🦆🦆   |
 |    11 | Biological Warfare           | [link](https://everybody.codes/event/2024/quests/11) | [link](events/2024/11) | 🦆🦆🦆 |
 |    12 | Desert Shower                | [link](https://everybody.codes/event/2024/quests/12) | [link](events/2024/12) |        |
 |    13 | Never Gonna Let You Down     | [link](https://everybody.codes/event/2024/quests/13) | [link](events/2024/13) |        |
